@@ -15,8 +15,9 @@
 <body>
     @include('partials.header')
     
-    <main>
+    <main class="text-bg-dark">
         <div class="jumbotron"></div>
+        <div class="ms-label text-uppercase" id="ms-overlap">@yield('label')</div>
         @yield('content')
     </main>
 

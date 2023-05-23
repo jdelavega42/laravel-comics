@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('label')
+    current series
+@endsection
 @section('content')
     <div class="comics">
         <ul class="card-section">
